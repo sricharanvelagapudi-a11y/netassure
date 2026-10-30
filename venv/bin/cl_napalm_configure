@@ -1,0 +1,6 @@
+#!/home/sri-charan/netassure/venv/bin/python3
+import sys
+from napalm.base.clitools.cl_napalm_configure import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
