@@ -1,0 +1,25 @@
+# Test framework
+pyats[full]
+pytest
+pytest-html
+allure-pytest
+pytest-xdist
+
+# Automation libraries
+nornir
+nornir-netmiko
+nornir-napalm
+nornir-utils
+netmiko
+napalm
+ncclient
+requests
+PyYAML
+Jinja2
+
+# Ansible and lint
+ansible
+ansible-lint
+flake8
+yamllint
+

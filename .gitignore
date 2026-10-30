@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.retry
+backups/*
+!backups/.gitkeep
+reports/*
+!reports/.gitkeep
+allure-results/
+.vault_pass
